@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">DentalApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id" translatable="false">1612904422286436</string>
+    <string name="dental_app">Dental-App</string>
+
+
+    <string name="welcome">Welcome to Dental-App</string>
+    <string name="welcome_subtitle">The app that shows you how to improve your dental health every day.</string>
+    <string name="facebook_login">Log In with Facebook</string>
+    <string name="email_login">Log In with email</string>
+
+
+    <string name="title_activity_login" translatable="false">Login</string>
+    <string name="email_enter">Enter your e-mail</string>
+    <string name="email">Email</string>
+    <string name="enter">Enter</string>
+
+    <string name="why">Why is it important to learn how to brush your teeth?</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="watch">Watch</string>
+    <string name="option1">How to use your brush?</string>
+    <string name="option2">How to use your dental floss?</string>
+
+    <string name="alarms">Alarms</string>
+    <string name="add">Add</string>
+
+    <string name="alarms_activity_title">Choose a time to brush</string>
+
+    <string name="logout">Log Out</string>
+    <string name="reminders">Reminders</string>
+
+
+    <string-array name="more_list">
+        <item>@string/why</item>
+        <item>@string/about</item>
+        <item>@string/logout</item>
+    </string-array>
+
+    <string name="about">About Dental-App</string>
+
+    <string name="about_text">Has escuchado hablar del proverbio Chino "Regala un pescado a un hombre y le darás alimento para un día, enseñale a pescar y lo alimentarás para el resto de su vida"
+- DentalApp considera que esta enseñanza es la base para formar una comunidad responsable y saludable, por lo que decidimos llevar este concepto a la Odontologia, con la intensión de que nuestros pacientes una vez hayan recibido el alta dental tras nuestra intervención como odontólogos, logren mantener una salud bucal sostenible en el tiempo. </string>
+
+
+    <string name="coming_soon_title">Coming soon</string>
+    <string name="coming_soon_message">This feature will be coming soon</string>
+
+
+
+    <string name="more">More</string>
+
+    <!-- time displayed in an alarm -->
+    <string name = "time_string">\'Every day at\' h:mm a</string>
+
+    <!-- alarm displayed in alarm list -->
+    <string name = "Alarm">Alarm </string>
+
+    <!-- To Cancel
+    To Cancel in Alert Dialog -->
+    <string name = "Cancel">Cancel</string>
+
+    <!-- incorrect email field -->
+    <string name="email_invalid">Enter a valid email address.</string>
+
+    <!-- empty field at loginscreen -->
+    <string name = "email_empty">Email field is empty.</string>
+
+    <!-- Error logging in facebook -->
+    <string name = "facebook_error">Facebook sign in error</string>
+
+
+    <!-- please wait! -->
+    <string name = "wait">Please wait...</string>
+
+
+    <!-- Alert Dialog string -->
+    <string name = "no_alarms_title">Start a good habit</string>
+    <!-- Alert Dialog string -->
+    <string name = "no_alarms_message">Schedule at which time do you brush your teeth and we will remind you to do it, and improve your dental health</string>
+    <!-- Dialog to schedule an alarm -->
+    <string name = "go_schedule">Go Schedule!</string>
+
+
+    <!-- Signing in facebook -->
+    <string name = "signing_in">Signing in...</string>
+
+    <!-- Alert Notification -->
+    <string name = "alarm_message">Time to brush your teeth!</string>
+
+    <!-- Welcome at login -->
+    <string name = "Welcome">Welcome</string>
+    <string name="title_activity_dispatch" translatable="false">DispatchActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_more" translatable="false">MoreActivity</string>
+    <string name="title_activity_welcome" translatable="false">WelcomeActivity</string>
+    <string name="title_activity_alarms" translatable="false">AlarmsActivity</string>
+    <string name="title_activity_about" translatable="false">AboutActivity</string>
+    <string name="title_activity_add_alarm" translatable="false">AddAlarmActivity</string>
+
+
+
+
+
+    <!-- ALARMS -->
+
+    <string name="details_alarm_name">Alarm Name</string>
+    <string name="details_repeat_weekly" translatable="false">Repeat Weekly</string>
+    <string name="details_sunday" translatable="false">Sunday</string>
+    <string name="details_monday" translatable="false">Monday</string>
+    <string name="details_tuesday" translatable="false">Tuesday</string>
+    <string name="details_wednesday" translatable="false">Wednesday</string>
+    <string name="details_thursday" translatable="false">Thursday</string>
+    <string name="details_friday">Friday</string>
+    <string name="details_saturday" translatable="false">Saturday</string>
+    <string name="details_alarm_tone">Alarm Tone</string>
+    <string name="details_alarm_tone_default">Select an alarm tone</string>
+
+
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_video_player" translatable="false">VideoPlayer</string>
+
+</resources>
+
+

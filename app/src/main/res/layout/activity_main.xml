@@ -1,0 +1,103 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cepillo"
+        android:layout_weight="1"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/brush"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/option1"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/brushButton"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:text="@string/watch_video"
+            android:textColorLink="@color/hilo"
+            android:background="@drawable/roundedcorners"
+            android:textColor="@color/cepillo"
+            android:padding="4sp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/play_blue"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hilo"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/floss"
+            android:layout_above="@+id/textView2"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/option2"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/watch_video"
+            android:textColorLink="@color/hilo"
+            android:id="@+id/flossButton"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/roundedcorners"
+            android:textColor="@color/hilo"
+            android:padding="5sp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/play_green"/>
+        <!-- android:drawableLeft="@drawable/play_green" -->
+
+    </RelativeLayout>
+
+
+</LinearLayout>
